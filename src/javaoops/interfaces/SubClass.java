@@ -7,6 +7,12 @@ public class SubClass extends ServiceProvider{
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void m21() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 	// commting for test
 
