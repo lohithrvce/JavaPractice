@@ -12,4 +12,5 @@ public interface Interf {
 	static void m5() {
 		System.out.println("test");
 	};
+	//
 }
