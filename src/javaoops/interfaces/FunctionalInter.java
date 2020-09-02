@@ -3,5 +3,7 @@ package javaoops.interfaces;
 public class FunctionalInter {
 
 	
-	// final code
+	// Practing the functional interface
+	
+	// adding master reabse option ahead
 }
