@@ -6,15 +6,14 @@ public interface Interf {
 	void m1();
 	void m2();
 	default void m3() {
-		System.out.println("hello");
+		System.out.println("m3");
 	}
 	
 	static void m5() {
-		System.out.println("test");
+		System.out.println("m5");
 	};
 
 	
 	void m21();
-	//
 
 }
