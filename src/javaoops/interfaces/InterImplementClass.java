@@ -27,5 +27,12 @@ public class InterImplementClass implements Interf{
 		ob.m21();
 		ob.m3();
 		Interf.m5();
+		
+		String s1  = new String("hello");
+		String s2 = "hello";
+		String s3 = s1.intern();
+		System.out.println(s1==s2);
+		System.out.println(s2==s3);
+				
 	}
 }
