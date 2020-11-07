@@ -34,6 +34,15 @@ public class ArrayListPractice {
 		
 		Collections.sort(al, new MyListComparator());
 		System.out.println(al);
+		
+		
+		
+	
+		int search = Collections.binarySearch(al, 9,new MyListComparator());
+		
+		System.out.println(search);
+		Collections.reverse(al);
+		System.out.println(al);
+	
 	}
 }
-
