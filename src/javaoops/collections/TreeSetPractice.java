@@ -11,6 +11,7 @@ public class TreeSetPractice {
 		ts.add(234);
 		ts.add(2);
 		ts.add(9);
+		System.out.println(ts.lower(13));
 		
 		//System.out.println(ts.headSet(234));
 		System.out.println(ts.hashCode());

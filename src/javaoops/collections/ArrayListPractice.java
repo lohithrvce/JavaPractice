@@ -22,6 +22,18 @@ public class ArrayListPractice {
 		// synchronized version of arraylist
 		
 		 List<Integer> allsync = Collections.synchronizedList(al);
+		 al.add(10);
+		 al.add(11);
+		 al.add(9);
+		 al.add(5);
+		 al.add(15);
+		 al.add(13);
+		 
+		//Collections.sort(al);
+		System.out.println(al);
+		
+		Collections.sort(al, new MyListComparator());
+		System.out.println(al);
 	}
 }
 

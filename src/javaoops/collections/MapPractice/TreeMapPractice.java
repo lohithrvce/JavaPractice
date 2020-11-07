@@ -14,5 +14,6 @@ public class TreeMapPractice {
 		tm.put(15, "lohith");
 		System.out.println(tm);
 	
+		
 	}
 }
